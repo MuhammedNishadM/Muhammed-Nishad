@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(to right , rgb(230,218,206),white);
+    padding: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 30px;
+    color: black;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    background-color: #007bff;
+    margin-right: 10px;
+}
+
+.nav-name {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.slash, .fullstack {
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.rightbar {
+    margin-left: 20px;
+    padding: 10px 15px;
+    background-color: #444;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.rightbar:hover {
+    background-color: #007bff;
+}
+
+/* Body content styles */
+.container.body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photobox {
+    background-color: rgb(244 236 230);
+    color: black;
+    padding: 30px;
+    text-align: center;
+    flex: 1 1 45%;
+    max-width: 45%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detailbox {
+    background:linear-gradient(to right , rgb(230,218,206),white);
+    padding: 30px;
+    flex: 1 1 50%;
+    max-width: 50%;
+    text-align: left;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin:0 auto 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(177, 193, 218);
+    margin: 0 auto 20px;
+}
+
+.name {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.blueline {
+    width: 100px;
+    height: 5px;
+    background-color: blue;
+    margin: 10px auto;
+}
+
+.projectmanager {
+    font-size: 1.2em;
+}
+
+.iconfooter {
+    margin-top: 20px;
+}
+
+.icons {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+
+.hello {
+    font-size: 2.2em;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.hellobottom {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.hellobottomline2 {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.resumebox, .projectbox {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.aboutme {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Footer styles */
+.footer {
+    background-color: white;
+    color: black;
+    padding: 35px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leftfooter {
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.rightfooter {
+    text-align: right;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.ic {
+    text-align: center;
+}
+
+.followiconhead {
+    display: flex;
+    gap: 10px;
+}
+
+.followicons {
+    font-size: 1.5em;
+    color: black;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-right {
+        margin-top: 10px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container.body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photobox, .detailbox {
+        max-width: 100%;
+        flex: 1 1 100%;
+    }
+
+    .rightfooter {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-name, .slash, .fullstack, .rightbar {
+        font-size: 0.9em;
+    }
+
+    .rightbar {
+        padding: 8px 10px;
+    }
+
+    .hello {
+        font-size: 1.8em;
+    }
+
+    .name {
+        font-size: 1.5em;
+    }
+
+    .resumebox, .projectbox {
+        font-size: 0.9em;
+        padding: 8px 15px;
+    }
+}

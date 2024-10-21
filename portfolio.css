@@ -1,0 +1,199 @@
+
+.box{
+    width: 16px;
+    height: 16px;
+    margin-left: 20px;
+    margin-top: 5px;
+    background-color: blue;   
+}
+.navbar{
+    background-color:white;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    
+}
+.nav-left,.nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-name{
+    font-size: 25px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+.slash{
+    font-size: 25px;
+}
+.fullstack{
+    font: size 20px;
+    margin-top: 8px;
+    padding: 0 0 0 10px;    
+}
+.rightbar{
+    font-size:16px ;
+    padding: 20px;
+}
+.body{
+    height: 830px;
+    width: 100%;
+    background: linear-gradient(to right ,rgb(230,218,206),white);
+
+}
+
+    
+
+.centerbox{
+    height: 500px;
+    width: 950px;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    display: flex;  
+}
+.photobox{
+    background-color: rgb(244 236 230);
+    width: 400px;
+    justify-content: center;
+      
+}
+.detailbox{
+    background-color: white;
+    width: 450px;
+    height: 100%;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+}
+.photo{
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 60px;
+    background-color:rgb(215, 206, 224);
+}
+.name{
+    height: 120px;
+    width: 200px;
+    background-color:  rgb(244 236 230);
+    width: 400;
+    font-size: 25px; 
+    padding: 25px;
+    font-weight: 1000;
+    margin-left: 100px;
+    text-align: center;  
+}
+.blueline{
+    width: 100px;
+    height: 10px;
+    background-color:  rgb(244 236 230);
+    width: 400;
+    margin-left: 150px;    
+    border-top: 3px solid blue;  
+}
+.projectmanager{
+    background-color:  rgb(244 236 230);
+    width: 400;
+    width: 300;
+    height: 50px;
+    padding: 20px 0;
+    letter-spacing: 8px;
+    text-align: center;    
+}
+.iconfooter{
+    background-color: white;
+width: 400px;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 35px;
+}
+.icons{
+    font-size: 20px;
+}
+.hello{
+    width: 300px;
+    height: 120px;
+    font-size: 100px;
+    background-color:white;
+    padding: 0 0 15px 0;
+        
+}
+.hellobottom{
+    width: 350px;
+    height: 50px;
+    font-size: 25px;
+    background-color: white;
+    letter-spacing: 1px;
+}
+.hellobottomline2{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.resumebox{
+    background-color: blue;
+    border-radius: 25px;
+    height: 40px;
+    width: 145px;
+    text-align: center;
+    font-weight: 100px;
+    padding: 5px;
+    color: white;
+}
+.projectbox{
+    background-color: white;
+    border-radius: 25px;
+    height: 40px;
+    width: 145px;
+    text-align: center;
+    padding: 5px;
+    font-weight: 200px;
+    border: 1px solid black;
+}
+.aboutme{
+    padding: 5px 0;
+}
+.footer{
+    display: flex;
+
+    
+}
+.leftfooter{
+    background-color: white;
+    width: 50%;
+    height: 105px;
+    padding: 40px;
+    
+}
+.rightfooter{
+    background-color: white;
+    width: 50%;
+    height: 105px;
+    display: flex;
+}
+
+
+.ic{
+   
+    width: 170px;
+    height: 105px;
+    align-content: center;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.followiconhead{
+    display: flex;
+    padding-left: 20px;
+}
+.followicons{
+    padding: 0px 10px;
+}

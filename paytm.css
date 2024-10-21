@@ -1,0 +1,121 @@
+.maincontainer{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(254, 253, 255);
+    display: flex;
+    border-color: black;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:inter;
+}
+.logo{
+    margin-left: 80px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    font-size: 17px
+}
+.signin{
+    border-radius: 100px;
+    background-color: rgb(7, 205, 250);
+    width: 90px;
+    height: 35px;
+    margin-right: 60px;
+    align-content: center;
+    align-items: center;
+    padding-left: 10px;
+    display: flex;
+    color: white;
+
+    
+    
+}
+.usericon{
+    color: rgb(18, 18, 133);
+    font-size: 28px;
+    
+    align-content: center;
+    position:absolute;
+    right: 50px;
+    
+    
+}
+.bcontainer{
+    background-color: rgb(219, 238, 232);
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.ccontainer{
+    background-color: white(175, 79, 79);
+    width: 50%;
+    height: 365px;
+    margin-left: 220px;
+    margin-top: 240px;
+    
+
+}
+
+.bottomlogo{
+    width:70px;
+    height:70px;
+    background-color: white(252, 243, 243);
+    border-radius: 20px;
+    position:relative;
+    
+    padding-left: 10px;
+    padding-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.text{
+    font-size: 54px;
+    width:100%;
+    height: 130px;
+    background-color: white;
+    margin-top: 40px;
+}
+.bottomtext{
+    font-size: 18px;
+    width: 100%;
+    height: 85px;
+    background-color: white;
+
+}
+.download{
+    color: white;
+    border-radius: 100px;
+    background-color: black;
+    width: 220px;
+    height: 30px;
+    align-content: center;
+    align-items:center ;
+    padding-left: 20px;
+    font-size: 15px;
+    display: flex;
+    gap: 10px;
+
+}
+.playlogo{
+    font-size: 12px;
+}
+.dcontainer{
+    background-color: white;
+    position: absolute;
+    display: flex;
+    width: 528px;
+    height: 350px;
+    right:0px;
+    top: 260px;
+    
+}
